@@ -106,7 +106,7 @@ WSGI_APPLICATION = 'SiteC.wsgi.application'
 if 'RAILWAY_ENVIRONMENT' in os.environ:
     DATABASES = {
         'default': dj_database_url.parse(
-            'postgresql://postgres:esaRJAyekNfTxVEPnXVOrozpBELIbCbj@switchback.proxy.rlwy.net:21154/railway',
+            'postgresql://postgres:HgUHSxhNNtbZzEQvQfkjxNStTaGFHOsw@postgres.railway.internal:5432/railway',
             conn_max_age=600,
             ssl_require=True
         )
